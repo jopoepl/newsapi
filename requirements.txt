@@ -1,0 +1,7 @@
+pymongo
+feedparser
+beautifulsoup4
+aiohttp
+python-dateutil
+pytz
+cloudscraper
