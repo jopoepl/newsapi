@@ -70,8 +70,8 @@ async def main():
         except Exception as e:
             logging.error(f"Run ID {run_id}: Error during processing: {str(e)}")
 
-        logging.info(f"Run ID {run_id}: Waiting for 10 minutes before next run")
-        await asyncio.sleep(600)  # wait for 10 mins, using asyncio.sleep instead of time.sleep
+        logging.info(f"Run ID {run_id}: Waiting for 30 minutes before next run")
+
 
 if __name__ == '__main__':
     asyncio.run(main())
